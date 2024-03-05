@@ -1,0 +1,117 @@
+ 508  ls
+  509  mkdir git
+  510  cd git
+  511  mkdir 2310990068
+  512  cd 2310990068
+  513  pwd
+  514  mkdir img
+  515  cd img
+  516  cd ..
+  517  git init
+  518  vi hello.c
+  519  vi hello.txt
+  520  vi hello.html
+  521  vi hello.png
+  522  git add .
+  523  git commit -m "First commit"
+  524  vi hello.c
+  525  git add .
+  526  git commit -m "C file modified and committed"
+  527  vi hello.txt
+  528  vi hello.html
+  529  git add .
+  530  git commit -m "Third commit"
+  531  git remote add origin https://github.com/Devansh78078/2310990068.git
+  532  git push -u origin main
+  533  git push -u origin master
+  534  cd img
+  535  cd ..
+  536  vi .gitignore
+  537  cd img
+  538  vi .gitignore
+  539  git add .
+  540  git commit -m "Ignore in subfolder"
+  541  cd ..
+  542  git add .
+  543  git commit -m "Ignore in main folder"
+  544  git mv 2310990068 img
+  545  cd img
+  546  ls
+  547  git mv 2310990068 img
+  548  git mv img 2310990068
+  549  cd ..
+  550  git mv hello.c img
+  551  cd img
+  552  ls
+  553  cd ..
+  554  git mv hello.txt img
+  555  git mv hello.html img
+  556  git mv hello.png img
+  557  cd img
+  558  ls
+  559  cd ..
+  560  ls
+  561  cd img
+  562  cp hello.png 2310990068
+  563  cd ..
+  564  ls
+  565  cd img
+  566  cp hello.txt 2310990068
+  567  cd ..
+  568  ls
+  569  ls
+  570  ls
+  571  cd img
+  572  cd
+  573  ls
+  574  ls
+  575  cd d
+  576  cd ..
+  577  cd ..
+  578  cd ..
+  579  cd d
+  580  cd work
+  581  cd git
+  582  cd 2310990068
+  583  ls
+  584  cd img
+  585  ls
+  586  ls
+  587  cd ..
+  588  cd img
+  589  cp hello.c
+  590  cp hello.c 2310990068
+  591  cd ..
+  592  ls
+  593  cd img
+  594  git mv hello.txt 2310990068
+  595  git mv hello.txt D:\work\git\2310990068
+  596  ls
+  597  cd ..
+  598  ls
+  599  cp hello.c img
+  600  cp hello.txt img
+  601  cp hello.html img
+  602  cp hello.png img
+  603  cd ..
+  604  cd 2310990068
+  605  cd img
+  606  ls
+  607  vi hello.c
+  608  vi hello.html
+  609  vi hello.txt
+  610  vi hello.png
+  611  git add .
+  612  git commit -m "Commits in img"
+  613  ls
+  614  cd ..
+  615  ls
+  616  vi sss.png
+  617  vi hello.png
+  618  git push -u origin master
+  619  la
+  620  ls
+  621  vi log.txt
+  622  git history
+  623  history
+
